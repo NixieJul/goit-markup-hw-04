@@ -658,7 +658,7 @@ img {
   transform: translate(-50%, -50%) scale(1);
   transition: trasform var(--transition);
   width: 408px;
-  height: 584px;
+  min-height: 584px;
   background-color: var(--modal-background);
   border-radius: 4px;
 }
@@ -676,11 +676,11 @@ img {
 }
 
 .is-hidden {
-  visibility:hidden;
+  visibility: hidden;
   opacity: 0;
   pointer-events:none;
 }
 
 .backdrop.is-hidden .modal {
-  transform: translate(-50%, -50%), scale(0);
+  transform: translate(-50%, -50%) scale(0);
 }
