@@ -363,7 +363,7 @@ img {
 }
 
 .team-icon {
-  fill: var(--light);
+  
 }
 
 .social-list {
@@ -396,6 +396,7 @@ img {
 }
 
 .social-icon {
+  fill: var(--light);
 }
 
 /**-----------CUSTOMERS-----------*/
